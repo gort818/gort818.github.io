@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-04-22T22:30:32-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alessandro Toia</title><subtitle>Linux - Software - Gaming</subtitle><author><name>Alessandro Toia</name></author><entry><title type="html">Hello World</title><link href="http://localhost:4000/intro/linux/nas/self-hosting/open-source/gaming/2025/04/22/hello-world/" rel="alternate" type="text/html" title="Hello World" /><published>2025-04-22T00:00:00-07:00</published><updated>2025-04-22T00:00:00-07:00</updated><id>http://localhost:4000/intro/linux/nas/self-hosting/open-source/gaming/2025/04/22/hello-world</id><content type="html" xml:base="http://localhost:4000/intro/linux/nas/self-hosting/open-source/gaming/2025/04/22/hello-world/"><![CDATA[<h1 id="hello-world">Hello, World!</h1>
+
+<p>Welcome to my very first blog post—and my very first blog!</p>
+
+<p>This space will serve as a journal for my various projects and life journey, with a focus on Linux, technology, software, and video games.</p>
+
+<hr />
+
+<h2 id="️-current-projects">🛠️ Current Projects</h2>
+
+<p>Right now, I’m in the middle of building my own <strong>NAS</strong> for backups and other self-hosted services. I’ll be documenting everything along the way—like setting up:</p>
+
+<ul>
+  <li><strong>WireGuard</strong></li>
+  <li><strong>Pi-hole</strong></li>
+  <li><strong>Game servers</strong></li>
+  <li>and more…</li>
+</ul>
+
+<p>Expect some rants.</p>
+
+<p>At the monent I am using Arch on my desktop, and mix of Fedora and Ubuntu on my servers and VMs.</p>
+
+<hr />
+
+<h2 id="-contributing-to-open-source">💻 Contributing to Open Source</h2>
+
+<p>One of the projects I’m currently contributing to is <a href="https://github.com/flightlessmango/MangoHud"><strong>MangoHud</strong></a> a Vulkan performance overlay for Linux gaming that actually ships on the <a href="https://store.steampowered.com/steamdeck">Steam Deck</a>™.</p>
+
+<p>Open source contributions have been a bit slow for me this year, but I plan to get back into the groove soon.</p>
+
+<hr />
+
+<h2 id="-what-im-playing">🎮 What I’m Playing</h2>
+
+<p>Lately, <strong>Kingdom Come: Deliverance 2</strong> has been eating up a lot of my free time—and I’m absolutely loving it! Will post more about it as I get farther into it.</p>
+
+<hr />
+
+<p>Thanks for stopping by, come back soon there will be more to come!</p>]]></content><author><name>Alessandro Toia</name></author><category term="intro" /><category term="linux" /><category term="nas" /><category term="self-hosting" /><category term="open-source" /><category term="gaming" /><summary type="html"><![CDATA[Hello, World! Welcome to my very first blog post—and my very first blog! This space will serve as a journal for my various projects and life journey, with a focus on Linux, technology, software, and video games. 🛠️ Current Projects Right now, I’m in the middle of building my own NAS for backups and other self-hosted services. I’ll be documenting everything along the way—like setting up: WireGuard Pi-hole Game servers and more… Expect some rants. At the monent I am using Arch on my desktop, and mix of Fedora and Ubuntu on my servers and VMs. 💻 Contributing to Open Source One of the projects I’m currently contributing to is MangoHud a Vulkan performance overlay for Linux gaming that actually ships on the Steam Deck™. Open source contributions have been a bit slow for me this year, but I plan to get back into the groove soon. 🎮 What I’m Playing Lately, Kingdom Come: Deliverance 2 has been eating up a lot of my free time—and I’m absolutely loving it! Will post more about it as I get farther into it. Thanks for stopping by, come back soon there will be more to come!]]></summary></entry></feed>

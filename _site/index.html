@@ -1,16 +1,42 @@
 <!doctype html>
-<html lang="{{ site.lang | default: "en" }}">
+<html lang="en">
   <head>
-    {% include meta.html %}
+    <meta charset="utf-8" />
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
-    {% seo title=false %}
-    {% if page.title %}
-    <title>{{ page.title }}&#32;&#45;&#32;{{ site.description }}&#32;&#45;&#32;{{ site.title }}</title>
-    {% else %}
-    <title>{{ site.description }}&#32;&#45;&#32;{{ site.title }}</title>
-    {% endif %}
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css"/>
+<meta name="description" content="Linux - Software - Gaming">
+<meta property="og:description" content="Linux - Software - Gaming" />
+
+<meta name="author" content="Alessandro Toia" />
+
+
+
+
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Alessandro Toia" />
+<meta name="author" content="Alessandro Toia" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Linux - Software - Gaming" />
+<meta property="og:description" content="Linux - Software - Gaming" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="Alessandro Toia" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Alessandro Toia" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Alessandro Toia"},"description":"Linux - Software - Gaming","headline":"Alessandro Toia","name":"Alessandro Toia","url":"http://localhost:4000/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    
+    <title>Linux - Software - Gaming&#32;&#45;&#32;Alessandro Toia</title>
+    
+
+    <link rel="stylesheet" type="text/css" href="/style.css"/>
     <link rel="apple-touch-icon" sizes="57x57" href="/assets/image/favicon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/assets/image/favicon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/assets/image/favicon-72x72.png">
@@ -30,7 +56,7 @@
     <meta name="msapplication-TileImage" content="/assets/image/favicon-144x144.png">
     <meta name="msapplication-config" content="/assets/image/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml"/>
+    <link rel="alternate" type="application/rss+xml" title="Alessandro Toia - Linux - Software - Gaming" href="/feed.xml"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous" media="print" onload="this.media='all'"/>
     <link rel="stylesheet" href="https://cdn.plyr.io/3.6.5/plyr.css" media="print" onload="this.media='all'"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" media="print" onload="this.media='all'"/>
@@ -42,48 +68,68 @@
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar | absolute_url }}" width="70" height="70" /></a>
+          <a href="/" class="site-avatar"><img src="http://localhost:4000/assets/image/avatar.png" width="70" height="70" /></a>
 
           <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
+            <h1 class="site-name"><a href="/">Alessandro Toia</a></h1>
+            <p class="site-description">Linux - Software - Gaming</p>
           </div>
 
           <nav class="nav-menu">
-            {% include navigation.html %}
+            
+  <a class="nav-menu-item active" href="http://localhost:4000/">Blog</a>
+
+  <a class="nav-menu-item" href="http://localhost:4000/about">About</a>
+
+  <a class="nav-menu-item" href="http://localhost:4000/search">Search</a>
+
+
           </nav>
         </header>
       </div>
     </div>
 
     <div id="main" role="main" class="container">
-      {{ content }}
+      <div class="posts">
+  
+  <article class="post">
+
+    <h1><a href="/intro/linux/nas/self-hosting/open-source/gaming/2025/04/22/hello-world/">Hello World</a></h1>
+
+    <div class="entry">
+      
+
+      Hello, World!
+
+Welcome to my very first blog post—and my very first blog!
+
+This space will serve as a journal for my various projects and life journey, with ...
+
+      
+    </div>
+
+    <a href="/intro/linux/nas/self-hosting/open-source/gaming/2025/04/22/hello-world/" class="read-more">Read more&nbsp;&#183;<span class="reading-time">
+  
+  2 min read
+</span>
+</a>
+  </article>
+  
+
+  
+
+</div>
+
     </div>
 
     <div class="wrapper-footer">
       <div class="container">
-        <footer class="footer">
-          {%- if site.footer_links -%}
-          <div class="social-icons">
-            {%- for footer_link in site.footer_links -%}
-            {%- if footer_link.url contains "://" -%}
-            {%- assign url = footer_link.url -%}
-            {%- else -%}
-            {%- assign url = footer_link.url | relative_url -%}
-            {%- endif -%}
-            <a class="social-icon" href="{{ url }}"><i class="{{ footer_link.icon | default: 'fa fa-link' }} fa-3x" title="{{ footer_link.title }}"></i></a>
-            {%- endfor -%}
-          </div>
-          {%- endif -%}
-
-          <div class="copyright">
+        <footer class="footer"><div class="social-icons"><a class="social-icon" href="/feed.xml"><i class="fa fa-rss-square fa-3x" title="Feed"></i></a><a class="social-icon" href="https://github.com/gort818"><i class="fa fa-github-square fa-3x" title="GitHub"></i></a><a class="social-icon" href="mailto:gort818@gmail.com"><i class="fa fa-envelope-square fa-3x" title="Email"></i></a></div><div class="copyright">
            <a href="https://ko-fi.com/YOURUSERNAME" target="_blank" style="font-size: 1.5em;">☕ Buy me a Ko-fi</a>
-            {% if site.copyright %}
-            {{ site.copyright | markdownify }}
-            {% else %}
-           <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}</p>
+            
+           <p>&copy; 2025 Alessandro Toia</p>
 
-            {% endif %}
+            
           </div>
         </footer>
       </div>

@@ -2,14 +2,18 @@
 # This file contains configuration flags to customize your site
 #
 
+# author i.e. YOU
+
+author: Alessandro Toia
+
 # Site locale
 lang: "en"
 
 # Name of your site (displayed in the header)
-title: Forever Jekyll
+title: Alessandro Toia
 
 # Short bio or description (displayed in the header)
-description: A simple, elegant and full featured Jekyll theme
+description: Linux - Software - Gaming
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /assets/image/avatar.png
@@ -20,7 +24,7 @@ avatar: /assets/image/avatar.png
 
 # Your website URL (e.g. https://forever-jekyll.github.io or https://forever-jekyll.com)
 # Used for Sitemap.xml and your RSS feed
-url: https://forever-jekyll.github.io
+url: https://nullsite.org
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -39,25 +43,32 @@ navigation_links:
   - title: Search
     url: /search
 
+
 # Footer icons
 footer_links:
   - title: Feed
     url: feed.xml
     icon: fa fa-rss-square
 
-  - title: Twitter
-    url: https://twitter.com/jekyllrb
-    icon: fa fa-twitter-square
+ # - title: Twitter
+  #  url: https://twitter.com/jekyllrb
+   # icon: fa fa-twitter-square
 
   - title: GitHub
-    url: https://github.com/forever-jekyll
+    url: https://github.com/gort818
     icon: fa fa-github-square
+
+  - title: Email
+    url: mailto:gort818@gmail.com
+    icon: fa fa-envelope-square
+
+
 
 # Enter your copyright text if you wish to override the default one.
 #copyright: "This site is made with <3 by *me, myself, and I*."
 
 # Time zone
-timezone: null
+timezone: America/Los_Angeles
 
 # Excerpt separator
 excerpt_separator: <!--more-->
@@ -77,6 +88,8 @@ kramdown:
   syntax_highlighter_opts:
     # Use existing pygments syntax highlighting css
     css_class: 'highlight'
+    linenos: true
+    style: "monokai"
 
 # Pagination
 paginate: 5

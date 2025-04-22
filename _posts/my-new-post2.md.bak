@@ -1,0 +1,14 @@
+---
+layout: post
+title: Hey there!
+categories: [content, gaming]
+---
+
+testing
+
+
+```cpp
+if (int <=1) {
+    std::cout <<"uhuhuhuhu" << "\n";
+    }
+```

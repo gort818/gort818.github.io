@@ -1,7 +1,16 @@
 ---
 ---
 
-@import "variables";
+@use "variables" as *;
+@use "message";
+@use "share-buttons";
+@use "spotify-embed";
+@use "syntax";
+@use "pagination";
+@use "map";
+@use "search";
+@use "video";
+@use "mermaid";
 
 html {
   font-size: 100%;
@@ -73,11 +82,11 @@ h6 {font-size: 14px;}
 small, .text_small {font-size: 14px;}
 
 a {
-  color: $blue;
+  color: #000000;
   text-decoration: none;
 
   &:visited {
-    color: $purple;
+    color: #7F7F7F;
   }
 
   &:hover {
@@ -267,21 +276,26 @@ blockquote {
   }
 }
 
+
+
 pre,
 code {
-  font-family: $code-font-family !important;
-  font-size: 15px !important;
-  color: #586e75;
-  border: 01px solid #dddddd;
-  border-radius: 03px;
-  background-color: #fdf6e3;
+  font-family: 'Fira Code', monospace !important;
+  font-size: 17px !important;
+  color: #586e75 !important;
+  border: 01px solid #A9A9A9;
+  border-radius: 12px !important;
+  background-color: #2c2a27 !important; // deep warm gray-brown
 }
 
 code {
   padding: 01px 03.55px;
+  background-color: #2c2a27 !important; // deep warm gray-brown
+  color: #FFFFFF !important;
 }
 
 pre {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
   padding: 08px 12px;
   overflow-x: auto;
 
@@ -294,7 +308,7 @@ pre {
 
 .highlight {
   isolation: isolate;
-  border-radius: 03px;
+  border-radius: 12px;
   background: #fdf6e3;
   @extend %vertical-rhythm;
 
@@ -617,14 +631,12 @@ footer {
   }
 }
 
-// Settled on moving the import of syntax highlighting to the bottom of the CSS
-// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "message";
-@import "share-buttons";
-@import "spotify-embed";
-@import "syntax";
-@import "pagination";
-@import "map";
-@import "search";
-@import "video";
-@import "mermaid";
+/* Enlarge dark mode button */
+.darkmode-toggle {
+  font-size: 3rem; /* Increase font size */
+  width: 50px; /* Increase width */
+  height: 50px; /* Increase height */
+  padding: 10px; /* Adjust padding */
+}
+
+

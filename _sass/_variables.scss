@@ -36,3 +36,15 @@ $code-font-family: ui-monospace, "Cascadia Mono", "Segoe UI Mono", Consolas, Men
 
 // Transitions
 $time: 250ms;
+
+// in _sass/_variables.scss
+$midGray: #7f7f7f;
+
+// in _sass/_search.scss
+.darkmode--activated {
+  input {
+    &[type=text] {
+      color: $midGray;
+    }
+  }
+}
