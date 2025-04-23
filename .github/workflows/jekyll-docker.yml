@@ -21,4 +21,4 @@ jobs:
         -e JEKYLL_ENV=production \
          -w /srv/jekyll \
         jekyll/jekyll:latest \
-        bash -c "bundle install && jekyll build --future"
+        bash -c  "chmod a+w /srv/jekyll/Gemfile.lock && chmod 777 /srv/jekyll && jekyll build --future"
