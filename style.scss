@@ -1,7 +1,16 @@
 ---
 ---
 
-@import "variables";
+@use "variables" as * ;
+@use "message";
+@use "share-buttons";
+@use "spotify-embed";
+@use "syntax";
+@use "pagination";
+@use "map";
+@use "search";
+@use "video";
+@use "mermaid";
 
 
 html {
@@ -630,13 +639,3 @@ footer {
   height: 50px; /* Increase height */
   padding: 10px; /* Adjust padding */
 }
-
-@import "message";
-@import "share-buttons";
-@import "spotify-embed";
-@import "syntax";
-@import "pagination";
-@import "map";
-@import "search";
-@import "video";
-@import "mermaid";
