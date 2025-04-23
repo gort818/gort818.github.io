@@ -10,7 +10,9 @@ author: Alessandro Toia
 lang: "en"
 
 # Name of your site (displayed in the header)
-title: Alessandro Toia
+title: > 
+Alessandro Toia
+   /dev/null
 
 # Short bio or description (displayed in the header)
 description: Linux - Software - Gaming
