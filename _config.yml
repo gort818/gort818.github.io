@@ -13,10 +13,8 @@ lang: "en"
 title: Alessandro Toia
 
 # Short bio or description (displayed in the header)
-#description: Linux - Software - Gaming
-description: |
-  Line one.
-  Line two.
+description: Linux - Software - Gaming
+
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /assets/image/avatar.png
