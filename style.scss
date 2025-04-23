@@ -19,12 +19,13 @@ html {
 }
 
 body {
-  background: $white;
+  background-color: Canvas;
+  color: CanvasText;
+  color-scheme: light dark;
   font-family: $sans-font-family;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.66666666667;
-  color: $darkGray;
   -webkit-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
