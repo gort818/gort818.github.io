@@ -19,7 +19,6 @@ jobs:
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll \
         -e JEKYLL_ENV=production \
-         --user=$(id -u):$(id -g) \
          -w /srv/jekyll \
         jekyll/jekyll:latest \
         bash -c "bundle install && jekyll build --future"
