@@ -15,9 +15,15 @@ jobs:
 
     - name: Build the site in the jekyll/jekyll container (Debian-based)
       run: |
-        docker run --rm \
-          -v ${{ github.workspace }}:/srv/jekyll \
-          -e JEKYLL_ENV=production \
-          -w /srv/jekyll \
-          jekyll/builder \
-          bash -c "chmod -R a+w /srv/jekyll && bundle install && jekyll build --future --trace"
+        - name: Build site using Ruby image
+  run: |
+    docker run --rm \
+      -v ${{ github.workspace }}:/srv/jekyll \
+      -w /srv/jekyll \
+      ruby:3.2-bullseye \
+      bash -c "
+        apt-get update && \
+        apt-get install -y build-essential libffi-dev ruby-dev git && \
+        gem install bundler && \
+        bundle install && \
+        bundle exec jekyll build --future"
