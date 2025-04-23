@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll"
+gem 'google-protobuf', force_ruby_platform: true if RUBY_PLATFORM.include?('linux-musl')
 
 # Plugins
 group :jekyll_plugins do
