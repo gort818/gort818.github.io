@@ -118,20 +118,27 @@
                     ]});">
     </script>
 
-    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-    <script>
-      function addDarkmodeWidget() {
-        new Darkmode().showWidget();
-        window.addEventListener('load', addDarkmodeWidget);
-      }
-      const options = {
-        /*label: '🌓',
-        */
-        label: '>_',
-      }
-      const darkmode = new Darkmode(options);
-            darkmode.showWidget();
-    </script>
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+  const options = {
+    bottom: '64px',
+    left: '32px',
+    right: 'unset',
+    time: '0.5s',
+    mixColor: '#fff',
+    backgroundColor: '#fff',
+    buttonColorDark: '#000',
+    buttonColorLight: '#fff',
+    saveInCookies: true,
+    label: '>_',
+    autoMatchOsTheme: true
+  };
+
+  window.addEventListener('load', () => {
+    const darkmode = new Darkmode(options);
+    darkmode.showWidget();
+  });
+</script>
 
   </body>
 </html>
