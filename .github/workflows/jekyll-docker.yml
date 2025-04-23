@@ -19,7 +19,7 @@ jobs:
           -v ${{ github.workspace }}:/srv/jekyll \
           -e JEKYLL_ENV=production \
           -w /srv/jekyll \
-          jekyll/jekyll:4.2.2 \
+          jekyll/jekyll:latest \
           bash -c "
             chmod -R a+w /srv/jekyll && \
             bundle install && \
