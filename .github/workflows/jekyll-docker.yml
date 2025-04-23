@@ -8,7 +8,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -16,9 +15,13 @@ jobs:
 
     - name: Build the site in the jekyll/jekyll container (Debian-based)
       run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll \
-        -e JEKYLL_ENV=production \
-         -w /srv/jekyll \
-        jekyll/jekyll:latest \
-        bash -c  "chmod a+w /srv/jekyll/Gemfile.lock && chmod 777 /srv/jekyll && jekyll build --future"
+        docker run --rm \
+          -v ${{ github.workspace }}:/srv/jekyll \
+          -e JEKYLL_ENV=production \
+          -w /srv/jekyll \
+          jekyll/jekyll:latest \
+          bash -c "
+            chmod -R a+w /srv/jekyll && \
+            bundle install && \
+            jekyll build --future
+          "
