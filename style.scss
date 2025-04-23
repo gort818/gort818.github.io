@@ -13,13 +13,6 @@
 @use "mermaid";
 
 
-html, body {
-  background-color: #0d1117 !important;
-}
-
-body.darkmode--activated {
-  background-color: #0d1117 !important;
-}
 
 html {
   font-size: 100%;
@@ -640,10 +633,17 @@ footer {
   }
 }
 
+
 /* Enlarge dark mode button */
 .darkmode-toggle {
   font-size: 3rem; /* Increase font size */
   width: 50px; /* Increase width */
   height: 50px; /* Increase height */
   padding: 10px; /* Adjust padding */
+}
+
+.darkmode--activated footer,
+.darkmode--activated #page,
+.darkmode--activated .wrapper {
+  background-color: #0d1117 !important;
 }
