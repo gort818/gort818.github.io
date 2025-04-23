@@ -39,7 +39,6 @@ body {
   margin: 0;
   flex-direction: column;
   overflow-wrap: break-word;
-  isolation: isolate;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -641,10 +640,5 @@ footer {
   width: 50px; /* Increase width */
   height: 50px; /* Increase height */
   padding: 10px; /* Adjust padding */
-}
-
-.darkmode--activated footer,
-.darkmode--activated #page,
-.darkmode--activated .wrapper {
-  background-color: #0d1117 !important;
+  background-color: $lightGray;
 }
