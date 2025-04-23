@@ -13,6 +13,14 @@
 @use "mermaid";
 
 
+html, body {
+  background-color: #0d1117 !important;
+}
+
+body.darkmode--activated {
+  background-color: #0d1117 !important;
+}
+
 html {
   font-size: 100%;
 }
@@ -38,9 +46,6 @@ body {
   margin: 0;
   flex-direction: column;
   overflow-wrap: break-word;
-}
-body.darkmode--activated {
-  background-color: #0d1117 !important;
 }
 
 h1, h2, h3, h4, h5, h6,
