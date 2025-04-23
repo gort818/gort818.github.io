@@ -20,8 +20,4 @@ jobs:
           -e JEKYLL_ENV=production \
           -w /srv/jekyll \
           jekyll/builder \
-          bash -c "
-            chmod -R a+w /srv/jekyll && \
-            bundle install && \
-            jekyll build --future
-          "
+          bash -c "chmod -R a+w /srv/jekyll && bundle install && jekyll build --future --trace"
