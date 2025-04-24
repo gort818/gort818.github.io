@@ -1,6 +1,15 @@
 [
   
   {
+    "title"    : "Server Part 1 - HDD Trouble",
+    "category" : "linux, nas, self-hosting, server",
+    "url"      : "/linux/nas/self-hosting/server/2025/04/23/hello-hdd/",
+    "date"     : "April 23, 2025",
+    "excerpt"  : "\n  📦 Server Series — Part 1\nNext up: RAID + LVM setup, Samba sharing, and more…\n\n\nPart 1 of the server series\n\n\n\n\nI originally planned to use three 8TB HDDs from Seagate—specifically, the IronWolf NAS drives.\nUnfortunately, they were out of stock ...",
+    "content"  : "\n  📦 Server Series — Part 1\nNext up: RAID + LVM setup, Samba sharing, and more…\n\n\nPart 1 of the server series\n\n\n\n\nI originally planned to use three 8TB HDDs from Seagate—specifically, the IronWolf NAS drives.\nUnfortunately, they were out of stock for weeks. So, I ended up going with some Toshiba N300 NAS drives instead.\nI plugged them into the hotswap bay of my Jonsbo N2.\n\n\n\nSetup:\n\n  RAID 1\n  LVM\n  Samba share\n\n\nNow it was time to mount.\nI confidently ran:\n\nsudo mount /mnt/samba/share\n\n\nand…\n\nOMG\nThe most horrific noise erupted from my little server box.\nImagine two cats fighting—with the background ambiance of two boiling pots of water continuously spilling onto the floor.\nThe sound echoed throughout my entire living room.\n\nI wiped the drives and packed them back into their boxes—never to be seen again.\n\nLesson learned. I ended up ordering three 4TB Seagate IronWolf NAS drives instead.\nHonestly, I think I overestimated my storage needs in the beginning.\n\nCheck back soon for more!\n\n\n\n🧭 Server Series Index:\n\n  ✅ Part 1: HDD Trouble (you are here)\n  🔜 Part 2: RAID + LVM Setup\n  🔜 Part 3: Samba + Backup Strategy\n\n"
+} ,
+  
+  {
     "title"    : "Hello World",
     "category" : "intro, linux, nas, self-hosting, open-source, gaming",
     "url"      : "/intro/linux/nas/self-hosting/open-source/gaming/2025/04/22/hello-world/",

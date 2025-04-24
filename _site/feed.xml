@@ -1,4 +1,54 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-04-23T17:00:58-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alessandro Toia</title><subtitle>Linux - Software - Gaming</subtitle><author><name>Alessandro Toia</name></author><entry><title type="html">Hello World</title><link href="http://localhost:4000/intro/linux/nas/self-hosting/open-source/gaming/2025/04/22/hello-world/" rel="alternate" type="text/html" title="Hello World" /><published>2025-04-22T00:00:00-07:00</published><updated>2025-04-22T00:00:00-07:00</updated><id>http://localhost:4000/intro/linux/nas/self-hosting/open-source/gaming/2025/04/22/hello-world</id><content type="html" xml:base="http://localhost:4000/intro/linux/nas/self-hosting/open-source/gaming/2025/04/22/hello-world/"><![CDATA[<h1 id="hello-world">Hello, World!</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-04-23T21:47:22-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alessandro Toia</title><subtitle>Linux - Software - Gaming</subtitle><author><name>Alessandro Toia</name></author><entry><title type="html">Server Part 1 - HDD Trouble</title><link href="http://localhost:4000/linux/nas/self-hosting/server/2025/04/23/hello-hdd/" rel="alternate" type="text/html" title="Server Part 1 - HDD Trouble" /><published>2025-04-23T00:00:00-07:00</published><updated>2025-04-23T00:00:00-07:00</updated><id>http://localhost:4000/linux/nas/self-hosting/server/2025/04/23/hello-hdd</id><content type="html" xml:base="http://localhost:4000/linux/nas/self-hosting/server/2025/04/23/hello-hdd/"><![CDATA[<blockquote>
+  <p>📦 <strong>Server Series — Part 1</strong><br />
+<em>Next up: RAID + LVM setup, Samba sharing, and more…</em></p>
+</blockquote>
+
+<h2 id="part-1-of-the-server-series">Part 1 of the server series</h2>
+<hr />
+
+<p><img src="https://www.jonsbo.com/Upfiles/Prod_X/2022111754166.webp" alt="Jonsbo N2 Case" /></p>
+
+<p>I originally planned to use three 8TB HDDs from Seagate—specifically, the IronWolf NAS drives.<br />
+Unfortunately, they were out of stock for weeks. So, I ended up going with some Toshiba N300 NAS drives instead.<br />
+I plugged them into the hotswap bay of my Jonsbo N2.</p>
+
+<p><img src="https://storage.toshiba.com/images/consumer-hdd-internal/bdrive-(5).png" alt="Toshiba N300 Drives" /></p>
+
+<h3 id="setup">Setup:</h3>
+<ul>
+  <li>RAID 1</li>
+  <li>LVM</li>
+  <li>Samba share</li>
+</ul>
+
+<p>Now it was time to mount.<br />
+I confidently ran:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo mount /mnt/samba/share
+</code></pre></div></div>
+
+<p>and…</p>
+
+<h3 id="omg">OMG</h3>
+<p>The most horrific noise erupted from my little server box.<br />
+Imagine two cats fighting—with the background ambiance of two boiling pots of water continuously spilling onto the floor.<br />
+The sound echoed throughout my entire living room.</p>
+
+<p>I wiped the drives and packed them back into their boxes—never to be seen again.</p>
+
+<p>Lesson learned. I ended up ordering three 4TB Seagate IronWolf NAS drives instead.<br />
+Honestly, I think I overestimated my storage needs in the beginning.</p>
+
+<p>Check back soon for more!</p>
+
+<hr />
+
+<p><strong>🧭 Server Series Index:</strong></p>
+<ul>
+  <li>✅ Part 1: HDD Trouble <em>(you are here)</em></li>
+  <li>🔜 Part 2: <a href="/server/part-2-raid-lvm-setup/">RAID + LVM Setup</a></li>
+  <li>🔜 Part 3: <a href="/server/part-3-samba-backup/">Samba + Backup Strategy</a></li>
+</ul>]]></content><author><name>Alessandro Toia</name></author><category term="linux" /><category term="nas" /><category term="self-hosting" /><category term="server" /><summary type="html"><![CDATA[📦 Server Series — Part 1 Next up: RAID + LVM setup, Samba sharing, and more… Part 1 of the server series I originally planned to use three 8TB HDDs from Seagate—specifically, the IronWolf NAS drives. Unfortunately, they were out of stock for weeks. So, I ended up going with some Toshiba N300 NAS drives instead. I plugged them into the hotswap bay of my Jonsbo N2. Setup: RAID 1 LVM Samba share Now it was time to mount. I confidently ran: sudo mount /mnt/samba/share and… OMG The most horrific noise erupted from my little server box. Imagine two cats fighting—with the background ambiance of two boiling pots of water continuously spilling onto the floor. The sound echoed throughout my entire living room. I wiped the drives and packed them back into their boxes—never to be seen again. Lesson learned. I ended up ordering three 4TB Seagate IronWolf NAS drives instead. Honestly, I think I overestimated my storage needs in the beginning. Check back soon for more! 🧭 Server Series Index: ✅ Part 1: HDD Trouble (you are here) 🔜 Part 2: RAID + LVM Setup 🔜 Part 3: Samba + Backup Strategy]]></summary></entry><entry><title type="html">Hello World</title><link href="http://localhost:4000/intro/linux/nas/self-hosting/open-source/gaming/2025/04/22/hello-world/" rel="alternate" type="text/html" title="Hello World" /><published>2025-04-22T00:00:00-07:00</published><updated>2025-04-22T00:00:00-07:00</updated><id>http://localhost:4000/intro/linux/nas/self-hosting/open-source/gaming/2025/04/22/hello-world</id><content type="html" xml:base="http://localhost:4000/intro/linux/nas/self-hosting/open-source/gaming/2025/04/22/hello-world/"><![CDATA[<h1 id="hello-world">Hello, World!</h1>
 
 <p>Welcome to my very first blog post—and my very first blog!</p>
 
