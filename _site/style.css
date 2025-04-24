@@ -724,12 +724,12 @@ html {
 }
 
 body {
-  background: #FFFFFF;
+  background-color: Canvas;
+  color-scheme: light dark;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Roboto, "Droid Sans", Arimo, "Helvetica Neue", Helvetica, "Liberation Sans", Arial, Ubuntu, "DejaVu Sans", "Segoe UI Symbol", "Segoe UI Emoji", "Apple Color Emoji", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.6666666667;
-  color: #333333;
   -webkit-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
@@ -1313,6 +1313,7 @@ footer .social-icon:hover {
   width: 50px; /* Increase width */
   height: 50px; /* Increase height */
   padding: 10px; /* Adjust padding */
+  background-color: #EEEEEE;
 }
 
 /*# sourceMappingURL=style.css.map */
